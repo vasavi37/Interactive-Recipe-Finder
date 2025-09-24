@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Recipe Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Recipe Finder</h1>
+    <p>Search tasty recipes by name or by ingredient!</p>
+
+    <!-- Recipe Name Search -->
+    <div class="searchBox">
+      <input type="text" placeholder="Search by recipe name" id="searchInput">
+      <button onclick="searchRecipes()">Search</button>
+    </div>
+
+    <!-- Ingredient Search -->
+    <div class="searchBox">
+      <input type="text" placeholder="Search by ingredient (e.g. egg)" id="ingredientInput">
+      <button onclick="searchByIngredient()">Search</button>
+    </div>
+  </div>
+
+  <div class="recipes" id="recipes"></div>
+  <div class="notFound" id="notFound">Search your favorite recipes!</div>
+
+  <div class="popup-card" id="popupCard">
+    <button class="close-btn" onclick="closeRecipe()">Close</button>
+    <h3 id="recipeTitle"></h3>
+    <p id="recipeDetails"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
