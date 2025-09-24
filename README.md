@@ -15,5 +15,5 @@ A **responsive web application** to search for recipes by **name** or **ingredie
 - ThemealDB API
 
 ##Live Demo:
-[Project Demo]
-(https://vasavi37.github.io/Interactive-Recipe-Finder/)
+
+[here](https://vasavi37.github.io/Interactive-Recipe-Finder/)
