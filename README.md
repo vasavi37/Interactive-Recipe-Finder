@@ -13,3 +13,7 @@ A **responsive web application** to search for recipes by **name** or **ingredie
 - CSS  
 - JavaScript  
 - ThemealDB API
+
+##Live Demo:
+[Project Demo]
+(https://vasavi37.github.io/Interactive-Recipe-Finder/)
